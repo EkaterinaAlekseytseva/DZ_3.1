@@ -11,9 +11,15 @@ int number_2 = int.Parse(Console.ReadLine()!);
 
 if(number_1 > number_2)
 {
+    Console.Write("max = ");
     Console.WriteLine(number_1);
+    Console.Write("min = ");
+    Console.WriteLine(number_2);
 }
 else
 {
+    Console.Write("max = ");
     Console.WriteLine(number_2);
+    Console.Write("min = ");
+    Console.WriteLine(number_1);
 }
