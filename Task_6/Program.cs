@@ -6,8 +6,6 @@
 Console.WriteLine("Программа нахождения четного числа");
 Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine()!);
-//int n = number%10;
-//Console.WriteLine("Остаток" + number%10);
 
 if (number % 2 == 0)
 {
